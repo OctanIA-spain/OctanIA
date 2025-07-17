@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asistente de Rutas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <div class="container">
+    <div id="login-container">
+      <h2>🔒 Iniciar sesión con Google</h2>
+      <div id="g_id_signin"></div>
+    </div>
+
+    <div id="chat-container" style="display:none;">
+      <h1>🛣️ Asistente de Rutas</h1>
+      <div id="chat-box"></div>
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Escribe tu mensaje..." autocomplete="off" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
