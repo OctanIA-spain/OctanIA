@@ -1,6 +1,6 @@
 // Configura tu URL del backend de Cloud Run y tu client_id de Google
 const API_URL = "https://gpt-chat-701854763837.europe-west1.run.app/chat";
-const GOOGLE_CLIENT_ID = 701854763837-b1m8tf799g03n564q7n81i01gvb0e670.apps.googleusercontent.com"; // <-- reemplázalo por el real
+const GOOGLE_CLIENT_ID = "701854763837-b1m8tf799g03n564q7n81i01gvb0e670.apps.googleusercontent.com"; // <-- reemplázalo por el real
 
 let idToken = null;
 let messages = [];
